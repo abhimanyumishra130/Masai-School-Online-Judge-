@@ -1,4 +1,4 @@
-Problem-1
+/*Problem-1
 World Test Championship
 
 Description
@@ -48,6 +48,35 @@ In the first sample test case, the points of India are 580 and that of Australia
 
 In the second test case, the points of Australia & India are same, and both the teams have played the same number of games, therefore, the output is "Play another game!".
 
+*/
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String args[]) {
+        Scanner sc= new Scanner(System.in);
+        int indiaR=sc.nextInt();
+        int australiaR=sc.nextInt();
+        int indiaM=sc.nextInt();
+        int australiaM=sc.nextInt();
+        if(indiaR>australiaR){
+            System.out.print("India");
+        }else if(australiaR>indiaR){
+            System.out.print("Australia");
+        }else{
+            if(indiaM<australiaM){
+                System.out.print("India");
+            }else if(australiaM<indiaM){
+                System.out.print("Australia");
+            }
+            else{
+                System.out.print("Play another game!");
+            }
+        }
+    }
+}
+
+
+/*
 
 Problem-2
 Feel Good Strings
@@ -950,3 +979,4 @@ Sample Output 2
 Hint
 
 For N, there would be 2*N lined pattern.
+*/
