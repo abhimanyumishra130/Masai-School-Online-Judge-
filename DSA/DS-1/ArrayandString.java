@@ -260,7 +260,9 @@ Hint
 In the first sample test case, the age of the person is 15, therefore, the output  is "5 Kms".
 
 In the sample test case, the age of the person is 30, therefore, the output is "You can have friends from anywhere".
+*/
 
+/*
 
 problem -6
 
