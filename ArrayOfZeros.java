@@ -39,3 +39,30 @@ Sample Output 2
 YES
 
 */
+
+
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int[] ar = new int[n];
+    for(int i=0; i<n; i++) {
+      ar[i] = sc.nextInt();
+    }
+    for(int i=0; i<n-1; i++) {
+      int temp = ar[i];
+      ar[i+1] = ar[i+1] - temp;
+      ar[i] = ar[i] - temp;
+      //System.out.println(ar[i-1]+" "+ar[i]);
+    }
+    boolean b = true;
+    for(int i=0; i<n; i++) {
+      if(ar[i]!=0) {
+        b = false;
+        break;
+      }
+    }
+    System.out.println(b?"YES":"NO");
+  }
+}
