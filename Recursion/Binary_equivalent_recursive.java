@@ -14,6 +14,7 @@ The first line of the input contains one integer t (1 ≤ t ≤ 10) — the numb
 The first line of each test case contains a single integer n (1 ≤ n ≤ 100000) — the number.
 
 
+
 Output
 For each test case, print the answer: The binary representation of the integer.
 
