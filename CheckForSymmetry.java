@@ -5,6 +5,7 @@ You are given a square matrix of size n. Rows are indexed 1 to n from top to bot
 
 A matrix is said to be symmetric about horizontal axis if 1st row is identical to n-th row, 2nd is identical to (n-1)th row and so on.
 
+
 A matrix is said to be symmetric about vertical axis if 1ST column is identical to nth column, 2nd identical to (n-1)th and so on for all columns.
 
 
