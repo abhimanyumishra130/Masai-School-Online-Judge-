@@ -20,6 +20,7 @@ Third line contains N sorted integers which are elements of second array.
 
 Constraints :
 
+
 N < 1000
 
 
