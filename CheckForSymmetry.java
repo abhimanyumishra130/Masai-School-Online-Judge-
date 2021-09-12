@@ -22,6 +22,7 @@ Constraints :
 
 1<=t<=500
 
+
 1<n<50
 
 
