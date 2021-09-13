@@ -9,6 +9,7 @@ You are given an array of N-1 integers and integers are in the range of 1 to N. 
 Input
 Input Format
 
+
 The first and only line contains N-1 integers
 
 Constraints
