@@ -12,6 +12,7 @@ First and the only line contains a string S
 
 Constraints:
 
+
 Length of S <= 1000
 
 
