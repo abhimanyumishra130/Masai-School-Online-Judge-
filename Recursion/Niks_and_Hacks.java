@@ -50,6 +50,7 @@ In the last case Nick can get Rs. 200 by first using 10x hack and then using 20x
 
 
 
+
 */
 
 import java.util.Scanner;
